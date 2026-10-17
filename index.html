@@ -1,1 +1,81 @@
-Hello World
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Muhammad Rafif Misbahuddin, S.Kom., M.Kom.">
+  <title>Beranda</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-glass">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/logo-binusa.png" alt="Logo SMK Bintang Nusantara Binusa" class="brand-logo">
+        <span>MyProfil<span class="brand-dot">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Beranda</a></li>
+<li class="nav-item"><a class="nav-link "  href="tentang.html">Tentang</a></li>
+<li class="nav-item"><a class="nav-link "  href="keahlian.html">Keahlian</a></li>
+<li class="nav-item"><a class="nav-link "  href="pendidikan.html">Pendidikan</a></li>
+<li class="nav-item"><a class="nav-link "  href="kontak.html">Kontak</a></li>
+          <li class="nav-item ms-lg-2"><button id="themeToggle" class="btn btn-sm theme-toggle" type="button" aria-label="Ganti tema"><i class="bi bi-moon-stars-fill"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="inner-page">
+    <section id="beranda" class="hero-section">
+  <div class="hero-grid"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7 order-2 order-lg-1">
+        <div class="eyebrow"><span class="status-dot"></span> PORTOFOLIO PROFESIONAL</div>
+        <p class="hero-kicker mb-2">Halo, perkenalkan saya</p>
+        <h1 class="hero-title hero-name-one-line">Muhammad Rafif Misbahuddin</h1>
+        <p class="hero-description">Pendidik dan profesional di bidang teknologi informasi yang bersemangat dalam berbagi pengetahuan, mengembangkan keterampilan digital, serta mendukung pembelajaran yang inovatif dan relevan dengan kebutuhan industri.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="tentang.html" class="btn btn-primary btn-lg rounded-pill px-4">Kenali Saya <i class="bi bi-arrow-right ms-2"></i></a>
+          <a href="kontak.html" class="btn btn-outline-light btn-lg rounded-pill px-4">Hubungi Saya</a>
+        </div>
+        <div class="hero-socials mt-4"><span><i class="bi bi-mortarboard-fill"></i> Pendidikan & Teknologi</span><span><i class="bi bi-code-slash"></i> Digital Learning</span></div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2">
+        <div class="portrait-wrap">
+          <div class="portrait-orbit orbit-one"></div><div class="portrait-orbit orbit-two"></div>
+          <div class="portrait-card"><img src="assets/foto-pak-rafif.jpg" alt="Foto Muhammad Rafif Misbahuddin, S.Kom., M.Kom." class="portrait"></div>
+          <div class="floating-badge badge-top"><i class="bi bi-stars"></i><span>Belajar<br><b>Sepanjang Hayat</b></span></div>
+          <div class="floating-badge badge-bottom"><i class="bi bi-laptop"></i><span>Teknologi<br><b>untuk Pendidikan</b></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="home-shortcuts row g-3 mt-5">
+      <div class="col-6 col-lg-3"><a href="tentang.html" class="shortcut-card"><i class="bi bi-person-vcard"></i><span>Tentang Saya</span><i class="bi bi-arrow-up-right ms-auto"></i></a></div>
+      <div class="col-6 col-lg-3"><a href="keahlian.html" class="shortcut-card"><i class="bi bi-code-square"></i><span>Keahlian</span><i class="bi bi-arrow-up-right ms-auto"></i></a></div>
+      <div class="col-6 col-lg-3"><a href="pendidikan.html" class="shortcut-card"><i class="bi bi-mortarboard"></i><span>Pendidikan</span><i class="bi bi-arrow-up-right ms-auto"></i></a></div>
+      <div class="col-6 col-lg-3"><a href="kontak.html" class="shortcut-card"><i class="bi bi-envelope"></i><span>Kontak</span><i class="bi bi-arrow-up-right ms-auto"></i></a></div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="footer-brand"><img src="assets/logo-binusa.png" alt="" class="footer-logo"><span>Muhammad Rafif Misbahuddin</span></div>
+      <p class="mb-0">© <span id="year"></span> Portofolio pribadi</p>
+      <a href="index.html" class="back-top" aria-label="Kembali ke beranda"><i class="bi bi-house"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
